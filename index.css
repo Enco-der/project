@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.picture2{
+    height: 300px;
+    width: 100%;  
+    background-position: center;
+    background-size: cover; 
+    overflow: hidden; 
+    margin-top: 50px;
+
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+
+ .navbar3 h2{
+   padding: 0px 50px;
+   margin-top: 40px;
+   color: blue;
+   font-weight: 500;
+   font-size: 50px;
+   font-family: Poppins;
+ }
+
+ .pictureflex{
+    
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+
+ .pics{
+   
+    width: 200px;
+  
+ }
+ .pics h1{
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif
+ }
+
+ .roundpicture{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5 ease-in;
+ }
+
+ .pics:hover{
+    transform: scale(1.1);
+ }
+
+
+
+
+
+ .thisra{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 105px;
+  }
+  
+  .abu h3{
+  color: var(--text-01-body, #454545);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: rgba(69, 69, 69, 1);
+  }
+  
+  .abu p{
+  color: var(--theme-logo-red, #98002E);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  } 
+  
+  
+  .aizaz h3{
+  color: var(--text-01-body, #454545);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  text-decoration-line: underline;
+  margin-top: 40px;
+  }
+  
+  .linkslogo{
+      display: flex;
+      margin-top: 20px;
+      gap: 36px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+.chotha{
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.ugly{
+    display: flex;
+    gap: 25px;
+    margin-left: 8vw;
+}
+
+.ugly h3{
+color: var(--text-01-body, #454545);
+font-family: Poppins;
+font-size: 12.8px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.2px;
+color: (69, 69, 69, 1);
+} 
+
+
+.beauty p{
+color: var(--text-01-body, #454545);
+font-family: Poppins;
+font-size: 12.8px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.2px;
+color: (69, 69, 69, 1);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+                          /* page 2 (novel page) */
+
+.novel{
+    width: 100%;
+   
+    /* background-color: #3e3e3e; */
+    
+
+}
+
+
+.one{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+.box{
+    width: 300px;
+    height: 500px;
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: inset rgba(0.5,0.5,0.5,0.5)whitesmoke;
+
+}
+
+.arrangement{
+  width: 100%;
+  height: 250px;
+}
+
+.setting1{
+    color: #98002E;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 300;
+    font-size: 32px;
+    padding: 15px 25px;
+}
+
+.setting2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 8px 20px;
+    color: blue;
+    text-align: center;
+}
+
+.setting3{
+color: red;
+margin-top: 10px;
+padding: 0px 25px;
+
+}
+
+span{
+    color: #454545;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.setting4{
+
+}
+
+.Stock{
+    text-align: center;
+    margin-top: 30px;
+}
+li{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img1{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.text-logo{
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    color: #fff;
+}
+b{
+    color: rgb(78, 223, 223);
+}
+.nav-bar{
+    width: 100%;
+    height: 90px;
+    border: 0px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 2px 4px gray;
+    background-color: #3e3e3e;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+    font-size: 20px;
+}
+button{
+   width: 100px;
+   height: 50px;
+   margin-left: 10px;
+   border: 2px solid gray;
+   border-radius: 15px;
+   background-color:white ;
+   background: transparent;
+   color: rgb(28, 223, 223);
+   font-size: 18px;
+}
+button:hover{
+    background-color: rgba(24, 23, 23, 0.583);
+}
+.section1{
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+.img2{
+    width: 500px;
+    height: 500px;
+}
+
